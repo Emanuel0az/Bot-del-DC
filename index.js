@@ -156,9 +156,6 @@ client.on(Events.InteractionCreate, async interaction => {
 
 });
 
-console.log("TOKEN:", process.env.DISCORD_TOKEN);
-console.log("LARGO DEL TOKEN:", process.env.DISCORD_TOKEN?.length);
-
 
 // 🔸 Iniciar sesión del bot
 client.login(process.env.DISCORD_TOKEN);
